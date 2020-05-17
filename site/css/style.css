@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+}
+.mylogo{
+    margin-left: -10px;
+    margin-top: -28px;
+    
+    
+ }
+ .my{
+     
+     margin-top: -5px;
+ }
+ 
+ #myspan{
+     margin-left: 2px;
+     font-family:'Sacramento', cursive;
+     font-size: 1.6em;
+     font-weight: bold;
+     color: #000;
+     text-shadow: 2px 2px 4px #000000;
+
+ }
+ .container-fluid{
+     padding: 0;
+ }
+ .navbar-brand{
+     padding: 0;
+     margin-top: 20px;
+     
+ }
+ .main-heading{
+     font-weight: bold;
+     margin-top: 20px;
+ }
+ #chicken, #sushi, #beef, #mango,#papaya{
+    height: 250px;
+    width: 100%;
+    margin-bottom: 15px;
+    position: relative;
+    border: 2px solid  #3f0c1f;
+    overflow: hidden; 
+    text-align: center;
+    background-color: gray;
+    
+
+ }
+ #nav-list{
+     margin-top: 10px;
+ }
+ #nav-list a{
+     text-align: center;
+     color:#951C49;
+ }
+ #nav-list a:hover {
+    background: #E7E7E7;
+  }
+ #navbarNavAltMarkup a{
+    font-size: 1.2em;
+    text-transform: uppercase;
+
+}
+.backtotop{
+    height: 30px;
+    width: 100px;
+    text-decoration: none;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+    background-color: gray;
+}
+.backtotop a{
+    color: #000;
+   
+
+}
+
+
+
+ 
+ 
+
+ @media (min-width: 768px) and (max-width: 992px){
+     .navbar-brand{
+         position: absolute;
+         top:10px;
+         left:10px;
+     }
+     #mynav{
+         height: 90px;
+     }
+ }
